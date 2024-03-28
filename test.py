@@ -8,6 +8,7 @@ from sklearn.metrics import accuracy_score
 import scipy
 import math
 import copy
+import os
 
 class NearestNeighbor:
     def __init__(self):
@@ -147,8 +148,22 @@ def get_features(y, sr, a):
         #     power_ratios.append(power_ratio)
         band_powers = []
         for i in range(len(center_frequencies) - 1):
-            start_index_ = np.where(positive_frequencies >= center_frequencies[i])[0][0]
-            end_index_ = np.where(positive_frequencies <= center_frequencies[i + 1])[0][-1]
+            start_index_ = np.where(positive_frequencies >= center_frequencies[i])[0]
+            if start_index_.size == 0:
+                band_amplitude = 0
+                band_power = 0
+                band_powers.append(band_power)
+                continue
+            else:
+                start_index_ = start_index_[0]
+            end_index_ = np.where(positive_frequencies <= center_frequencies[i + 1])[0]
+            if end_index_.size == 0:
+                band_amplitude = 0
+                band_power = 0
+                band_powers.append(band_power)
+                continue
+            else:
+                end_index_ = end_index_[-1]
             band_amplitude = np.abs(power_spectrum[start_index_:end_index_ + 1])
             band_power = np.sum(band_amplitude ** 2)
             band_powers.append(band_power)
@@ -252,11 +267,15 @@ if __name__ == '__main__':
     x_train = []
     y_train = []
     
+    # folder_path = './train_sample/aloe'
+    # for root, dirs, files in os.walk(folder_path):
+    #     for file_name in files:
+    #         file = os.path.join(root, file_name)
     for file in train_file_name_food:
-        train_audio, train_sr = load_audio(file)
-        x_train_ = get_features(train_audio, train_sr, 3)
-        x_train.extend(x_train_)
-        y_train.extend([1]*len(x_train_))
+            train_audio, train_sr = load_audio(file)
+            x_train_ = get_features(train_audio, train_sr, 3)
+            x_train.extend(x_train_)
+            y_train.extend([1]*len(x_train_))
         # for i in range(len(x_train_)):
         #     if x_train_[i][0] == 0:
         #         continue
@@ -266,11 +285,15 @@ if __name__ == '__main__':
         # for i in range(len(x_train_)):
         #     plt.scatter(np.arange(0, len(x_train_[0])*5, 5), x_train_[i], color="red")
         
+    # folder_path = './train_sample/drinks'
+    # for root, dirs, files in os.walk(folder_path):
+    #     for file_name in files:
+    #         file = os.path.join(root, file_name)
     for file in train_file_name_water:
-        train_audio, train_sr = load_audio(file)
-        x_train_ = get_features(train_audio, train_sr, 3)
-        x_train.extend(x_train_)
-        y_train.extend([2]*len(x_train_))
+            train_audio, train_sr = load_audio(file)
+            x_train_ = get_features(train_audio, train_sr, 3)
+            x_train.extend(x_train_)
+            y_train.extend([2]*len(x_train_))
         # for i in range(len(x_train_)):
         #     if x_train_[i][0] == 0:
         #         continue

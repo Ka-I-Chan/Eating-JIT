@@ -1,0 +1,144 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 30.00018140589569 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "chewing" 
+        xmin = 0 
+        xmax = 30.00018140589569 
+        intervals: size = 23 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0256299460842815 
+            text = "" 
+        intervals [2]:
+            xmin = 1.0256299460842815 
+            xmax = 1.6024770811531266 
+            text = "c" 
+        intervals [3]:
+            xmin = 1.6024770811531266 
+            xmax = 1.8824176025835953 
+            text = "" 
+        intervals [4]:
+            xmin = 1.8824176025835953 
+            xmax = 2.4083664610287188 
+            text = "c" 
+        intervals [5]:
+            xmin = 2.4083664610287188 
+            xmax = 2.5016799681722084 
+            text = "" 
+        intervals [6]:
+            xmin = 2.5016799681722084 
+            xmax = 3.0106627344094243 
+            text = "c" 
+        intervals [7]:
+            xmin = 3.0106627344094243 
+            xmax = 3.1548745181766353 
+            text = "" 
+        intervals [8]:
+            xmin = 3.1548745181766353 
+            xmax = 3.6893064227257124 
+            text = "c" 
+        intervals [9]:
+            xmin = 3.6893064227257124 
+            xmax = 3.8589673448047845 
+            text = "" 
+        intervals [10]:
+            xmin = 3.8589673448047845 
+            xmax = 4.469746664289444 
+            text = "c" 
+        intervals [11]:
+            xmin = 4.469746664289444 
+            xmax = 4.520644940913165 
+            text = "" 
+        intervals [12]:
+            xmin = 4.520644940913165 
+            xmax = 5.021144661046428 
+            text = "c" 
+        intervals [13]:
+            xmin = 5.021144661046428 
+            xmax = 5.665856164946901 
+            text = "" 
+        intervals [14]:
+            xmin = 5.665856164946901 
+            xmax = 6.242703300015746 
+            text = "c" 
+        intervals [15]:
+            xmin = 6.242703300015746 
+            xmax = 6.743203020149009 
+            text = "c" 
+        intervals [16]:
+            xmin = 6.743203020149009 
+            xmax = 6.828033481188545 
+            text = "" 
+        intervals [17]:
+            xmin = 6.828033481188545 
+            xmax = 7.4048806162573895 
+            text = "c" 
+        intervals [18]:
+            xmin = 7.4048806162573895 
+            xmax = 7.4812280311929715 
+            text = "" 
+        intervals [19]:
+            xmin = 7.4812280311929715 
+            xmax = 7.964761659118327 
+            text = "c" 
+        intervals [20]:
+            xmin = 7.964761659118327 
+            xmax = 8.753684946786011 
+            text = "c" 
+        intervals [21]:
+            xmin = 8.753684946786011 
+            xmax = 8.838515407825549 
+            text = "" 
+        intervals [22]:
+            xmin = 8.838515407825549 
+            xmax = 9.109972883152063 
+            text = "c" 
+        intervals [23]:
+            xmin = 9.109972883152063 
+            xmax = 30.00018140589569 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "swallowing" 
+        xmin = 0 
+        xmax = 30.00018140589569 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 30.00018140589569 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "drinking" 
+        xmin = 0 
+        xmax = 30.00018140589569 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 30.00018140589569 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "speaking" 
+        xmin = 0 
+        xmax = 30.00018140589569 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 13.324074340045385 
+            text = "" 
+        intervals [2]:
+            xmin = 13.324074340045385 
+            xmax = 17.56318042110706 
+            text = "t" 
+        intervals [3]:
+            xmin = 17.56318042110706 
+            xmax = 30.00018140589569 
+            text = "" 

@@ -1,0 +1,76 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 13.699773242630386 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "chewing" 
+        xmin = 0 
+        xmax = 13.699773242630386 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 13.699773242630386 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "swallowing" 
+        xmin = 0 
+        xmax = 13.699773242630386 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 13.699773242630386 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "drinking" 
+        xmin = 0 
+        xmax = 13.699773242630386 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 6.684816152921911 
+            text = "" 
+        intervals [2]:
+            xmin = 6.684816152921911 
+            xmax = 8.245482399549314 
+            text = "d" 
+        intervals [3]:
+            xmin = 8.245482399549314 
+            xmax = 10.541462550837704 
+            text = "" 
+        intervals [4]:
+            xmin = 10.541462550837704 
+            xmax = 11.231757236845977 
+            text = "d" 
+        intervals [5]:
+            xmin = 11.231757236845977 
+            xmax = 13.699773242630386 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "speaking" 
+        xmin = 0 
+        xmax = 13.699773242630386 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.7327021011234218 
+            text = "" 
+        intervals [2]:
+            xmin = 1.7327021011234218 
+            xmax = 4.974085844118797 
+            text = "t" 
+        intervals [3]:
+            xmin = 4.974085844118797 
+            xmax = 11.651936610937971 
+            text = "" 
+        intervals [4]:
+            xmin = 11.651936610937971 
+            xmax = 13.699773242630386 
+            text = "t" 
