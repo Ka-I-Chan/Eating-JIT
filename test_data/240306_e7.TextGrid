@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 23.56825396825397 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "chewing" 
+        xmin = 0 
+        xmax = 23.56825396825397 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 23.56825396825397 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "swallowing" 
+        xmin = 0 
+        xmax = 23.56825396825397 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 23.56825396825397 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "drinking" 
+        xmin = 0 
+        xmax = 23.56825396825397 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.374904673602287 
+            text = "" 
+        intervals [2]:
+            xmin = 4.374904673602287 
+            xmax = 5.046123419503479 
+            text = "d" 
+        intervals [3]:
+            xmin = 5.046123419503479 
+            xmax = 8.737826521960036 
+            text = "" 
+        intervals [4]:
+            xmin = 8.737826521960036 
+            xmax = 9.641390218365487 
+            text = "d" 
+        intervals [5]:
+            xmin = 9.641390218365487 
+            xmax = 11.990655829019659 
+            text = "" 
+        intervals [6]:
+            xmin = 11.990655829019659 
+            xmax = 12.816771208590357 
+            text = "d" 
+        intervals [7]:
+            xmin = 12.816771208590357 
+            xmax = 15.682358931476216 
+            text = "" 
+        intervals [8]:
+            xmin = 15.682358931476216 
+            xmax = 16.665457968949887 
+            text = "d" 
+        intervals [9]:
+            xmin = 16.665457968949887 
+            xmax = 17.870724878782703 
+            text = "d" 
+        intervals [10]:
+            xmin = 17.870724878782703 
+            xmax = 18.61110312339429 
+            text = "" 
+        intervals [11]:
+            xmin = 18.61110312339429 
+            xmax = 19.609752848684337 
+            text = "d" 
+        intervals [12]:
+            xmin = 19.609752848684337 
+            xmax = 20.819763948181492 
+            text = "d" 
+        intervals [13]:
+            xmin = 20.819763948181492 
+            xmax = 22.188017545595464 
+            text = "" 
+        intervals [14]:
+            xmin = 22.188017545595464 
+            xmax = 23.56825396825397 
+            text = "d" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "speaking" 
+        xmin = 0 
+        xmax = 23.56825396825397 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 23.56825396825397 
+            text = "" 

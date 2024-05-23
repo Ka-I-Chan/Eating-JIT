@@ -1,0 +1,72 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 25.21687074829932 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "chewing" 
+        xmin = 0 
+        xmax = 25.21687074829932 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 25.21687074829932 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "swallowing" 
+        xmin = 0 
+        xmax = 25.21687074829932 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 25.21687074829932 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "drinking" 
+        xmin = 0 
+        xmax = 25.21687074829932 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 25.21687074829932 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "speaking" 
+        xmin = 0 
+        xmax = 25.21687074829932 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7033700646010663 
+            text = "" 
+        intervals [2]:
+            xmin = 0.7033700646010663 
+            xmax = 9.901483169194298 
+            text = "t" 
+        intervals [3]:
+            xmin = 9.901483169194298 
+            xmax = 14.56959462467855 
+            text = "" 
+        intervals [4]:
+            xmin = 14.56959462467855 
+            xmax = 19.681156462585033 
+            text = "t" 
+        intervals [5]:
+            xmin = 19.681156462585033 
+            xmax = 23.24289046504574 
+            text = "" 
+        intervals [6]:
+            xmin = 23.24289046504574 
+            xmax = 24.513500683698258 
+            text = "t" 
+        intervals [7]:
+            xmin = 24.513500683698258 
+            xmax = 25.21687074829932 
+            text = "" 
